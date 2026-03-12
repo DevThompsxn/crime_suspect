@@ -29,8 +29,9 @@ button{
     border-radius: 8px;
     cursor: pointer;
 }
-.result {
+#result {
     margin-top: 15px;
     font-weight: bold;
     text-align: center;
+    color: rgb(128, 55, 55);
 }
