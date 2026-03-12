@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper {
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+input, button {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+button{
+    background-color: rgba(0, 0, 255, 0.678);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
